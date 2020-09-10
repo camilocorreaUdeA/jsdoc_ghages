@@ -8,7 +8,7 @@ cache:
     - docs
     - .cache
 script:
-  - npm doc # Generate documentation
+  - npm run doc # Generate documentation
 
 # Here is the magic part
 deploy:
