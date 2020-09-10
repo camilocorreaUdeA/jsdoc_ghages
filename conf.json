@@ -1,0 +1,19 @@
+{
+    "source": {
+      "includePattern": ".+\\.js(doc|x)?$",
+      "include": ["."],
+      "exclude": ["node_modules"]
+    },
+    "recurseDepth": 10,
+    "plugins": ["plugins/markdown"],
+    "opts": {
+      "encoding": "utf8",
+      "destination": "docs/",
+      "template": "./node_modules/minami",
+      "recurse": true,
+      "verbose": true,
+      "theme_opts": {
+        "title": "Test: Publish documentation in GitHub Pages"
+      }
+    }
+  }
