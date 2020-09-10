@@ -7,4 +7,15 @@ const sayHello = friend => {
     console.log('Hello' + friend)
 }
 
+/**
+ * @function
+ * @param {String} data - String to search in 
+ * @param {String} word - String to be found
+ * @returns {Boolean}
+ * @description This function looks for a word in data string
+ */
+const findTextInString = (data, word) => {
+    return data.includes(word)
+}
+
 sayHello('Dummy')
