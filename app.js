@@ -18,6 +18,23 @@ const findTextInString = (data, word) => {
     return data.includes(word)
 }
 
+/**
+ * @function
+ * @param {String} a - number 
+ * @param {String} b - number
+ * @returns {number}
+ * @description This function returns the greatest between two numbers
+ */
+const greaterThan = (a, b) => {
+    if(a > b){
+        return a
+    }else{
+        if(b > a){
+            return b
+        }else return "They're the same"
+    }
+}
+
 sayHello('Dummy')
 
 if(findTextInString('arcabuz', 'cabu')){
