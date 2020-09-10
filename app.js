@@ -3,7 +3,7 @@
  * @param {String} friend - your friend's name
  * @description This function just greets and nothing else
  */
-const sayHello = friend => {
+const greetFriend = friend => {
     console.log('Hello' + friend)
 }
 
@@ -35,7 +35,7 @@ const greaterThan = (a, b) => {
     }
 }
 
-sayHello('Dummy')
+greetFriend('Dummy')
 
 if(findTextInString('arcabuz', 'cabu')){
     console.log('Found!')
