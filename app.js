@@ -22,4 +22,7 @@ sayHello('Dummy')
 
 if(findTextInString('arcabuz', 'cabu')){
     console.log('Found!')
+}else{
+    console.log('Try another word!')
 }
+
