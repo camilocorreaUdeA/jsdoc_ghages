@@ -19,3 +19,7 @@ const findTextInString = (data, word) => {
 }
 
 sayHello('Dummy')
+
+if(findTextInString('arcabuz', 'cabu')){
+    console.log('Found!')
+}
