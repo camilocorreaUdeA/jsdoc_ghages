@@ -20,8 +20,8 @@ const findTextInString = (data, word) => {
 
 /**
  * @function
- * @param {String} a - number 
- * @param {String} b - number
+ * @param {number} a - number 
+ * @param {number} b - number
  * @returns {number}
  * @description This function returns the greatest between two numbers
  */
@@ -35,6 +35,14 @@ const greaterThan = (a, b) => {
     }
 }
 
+/**
+ * @function
+ * @param {number} x - number 
+ * @returns {number}
+ * @description Pretty sintax for a function
+ */
+const squares = x => x*x
+
 greetFriend('Dummy')
 
 if(findTextInString('arcabuz', 'cabu')){
@@ -43,3 +51,6 @@ if(findTextInString('arcabuz', 'cabu')){
     console.log('Try another word!')
 }
 
+let squareds = [ 1, 2, 3 ].map(squares);
+
+console.log(squareds)
