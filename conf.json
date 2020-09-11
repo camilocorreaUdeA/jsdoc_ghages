@@ -12,6 +12,7 @@
       "template": "./node_modules/minami",
       "recurse": true,
       "verbose": true,
+      "readme": "README.md",
       "theme_opts": {
         "title": "Test: Publish documentation in GitHub Pages"
       }
